@@ -1,0 +1,20 @@
+= 0.1.0 (2023-03-24) =
+* Introduced additional metadata displays in the media modal
+* Added opportunity to update the metadata of media items directly from the WordPress media modal
+* Added class-names for identifying and targeting specific media items in the front-end markup of images.
+* Improved image dimension detection when generating image sizes (fixes cases where the primary image was not identified, and images may have been generated with a 1px width and height)
+* Improved the onboarding flow with better explanations of what importing media to Imageshop involves, and guiding the user more actively.
+
+= 0.0.8 (2023-02-21) =
+* Added backwards compatibility check when generating `preloaded_url` links for psotmeta.
+* Added fallback handler for generating srcset when `attachment_id` is passed as `0` when called outside the main loop.
+
+= 0.0.7 (2023-01-31) =
+* Added fallback handling if an API key is changed, to allow old images to render still.
+* Added alternative to manually change the Imageshop lookup language when filtering media results.
+* Added translation wrappers for labels used within the media modal.
+* Improved the API settings screen to flush data when an existing API key is modified.
+* Improved handling of site languages to determine default Imageshop lookup languages.
+
+= 0.0.6 (2022-12-05) =
+* Initial release

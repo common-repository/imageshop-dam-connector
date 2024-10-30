@@ -1,0 +1,35 @@
+.imageshop__loader {
+	display: none;
+}
+
+.imageshop__page {
+	max-width: 1200px;
+}
+
+.imageshop__page .imageshop__block {
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+	border-bottom: 1px #0080FF solid;
+}
+
+.imageshop__page .imageshop__block .row {
+	height: 75px;
+	align-items: center;
+}
+
+.imageshop__page .imageshop__block .row.larger {
+	height: 150px;
+}
+
+.imageshop__page label {
+	font-weight: bold;
+}
+
+.imageshop__page h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#message {
+	margin: 0;
+}
